@@ -45,10 +45,9 @@ class Calculator:
 
 
 if __name__ == "__main__":
-    # both input number are presumably integer
-    first_number = int(input("Input first number: "))
+    first_number = float(input("Input first number: "))
     action = str(input("Input operator: "))
-    second_number = int(input("Input second number: "))
+    second_number = float(input("Input second number: "))
     Calculator(first_number=first_number,
                second_nubmer=second_number,
                action=action)
