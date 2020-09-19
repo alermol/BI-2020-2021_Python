@@ -52,3 +52,4 @@ for unit in converts_coef[unit_to_convert.upper()].items():
     print(f"{unit_value} {unit_to_convert.upper()} = "
           f"{unit[1] * unit_value} {unit[0]}")
 print("----------------------------------------------------------------------")
+print("DONE")
